@@ -1,10 +1,11 @@
 <?php
+
   class Connection {
 
-    public $host = "localhost";
     public $user = "root";
-    public $pwd = "Abhi4531@my";
+    public $host = "localhost";
     public $db = "TODO";
+    public $pwd = "Abhi4531@my";
     public $conn;
 
     function __construct() {
@@ -12,4 +13,5 @@
     }
 
   }
+
 ?>
