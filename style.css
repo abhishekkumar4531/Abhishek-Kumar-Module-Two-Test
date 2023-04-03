@@ -1,0 +1,28 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.list-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-content li {
+  padding: 5px;
+  width: 20%;
+}
+.list-content li button {
+  padding: 2px 10px;
+}
